@@ -1,0 +1,166 @@
+body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-color: #1a1a1a;
+    color: #f3f2ef;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 5%;
+    background-color: #2c2c2c;
+    border-bottom: 1px solid #444;
+}
+
+.logo-link {
+    text-decoration: none;
+}
+
+.logo-link h1 {
+    color: #5cacee;
+    font-size: 28px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #f3f2ef;
+    font-size: 14px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #5cacee;
+}
+
+.join-btn, .signin-btn {
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.join-btn {
+    color: #f3f2ef;
+    background-color: transparent;
+}
+
+.join-btn:hover {
+    background-color: #ffffff1a;
+}
+
+.signin-btn {
+    color: #5cacee;
+    border: 1px solid #5cacee;
+}
+
+.signin-btn:hover {
+    background-color: #5cacee;
+    color: #1a1a1a;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 5%;
+    max-width: 1128px;
+    margin: auto;
+    gap: 40px;
+}
+
+.login-container {
+    max-width: 450px;
+    flex-shrink: 0;
+}
+
+.login-container h1 {
+    font-size: 48px;
+    font-weight: 300;
+    color: #e2d5c1;
+    margin-bottom: 24px;
+    line-height: 1.2;
+}
+
+.login-buttons button {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 12px;
+    border-radius: 28px;
+    border: 1px solid #888;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    color: #f3f2ef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.login-buttons button:hover {
+    background-color: #ffffff1a;
+}
+
+.login-buttons button img {
+    width: 20px;
+    height: 20px;
+}
+
+.terms, .new-user {
+    font-size: 12px;
+    color: #aaa;
+    text-align: center;
+}
+
+.terms a, .new-user a {
+    color: #5cacee;
+    font-weight: 600;
+}
+
+.image-container {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+/* Styles for other pages */
+.page-content {
+    padding: 40px 5%;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #2c2c2c;
+    border-radius: 8px;
+}
+
+.page-content h1, .page-content h2 {
+    color: #5cacee;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: #aaa;
+}
